@@ -1,0 +1,30 @@
+
+
+<div class="container-fluid mt-5">
+
+
+  <table class="table table-bordered mt-5">
+
+    <h5 class="mb-5">Total Registered users</h5>
+
+    <tr>
+      <th>Sr No</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Edit</th>
+      <td>Delete</td>
+    </tr>
+
+    <tr *ngFor="let d of datas,let i = index">
+      <td>{{i+1}}</td>
+      <td>{{d.name}}</td>
+      <td>{{d.email}}</td>
+      <td>{{d.password}}</td>
+      <td><button (click)="edit(d)" class="btn btn-outline-primary mt-3">Edit</button></td>
+      <td><button (click)="delete(d)" class="btn btn-outline-danger mt-3">Delete</button></td>
+    </tr>
+
+  </table>
+
+</div>

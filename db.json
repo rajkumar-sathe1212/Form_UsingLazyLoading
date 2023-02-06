@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Raj",
+      "email": "r@gmail.com",
+      "password": "1212",
+      "id": 5
+    },
+    {
+      "name": "Adarsh",
+      "email": "a@gmail.com",
+      "password": "9999",
+      "id": 6
+    },
+    {
+      "name": "Aniket",
+      "email": "a@gmail.com",
+      "password": "8888",
+      "id": 7
+    },
+    {
+      "name": "Rushi",
+      "email": "ru@gmail.com",
+      "password": "7777",
+      "id": 8
+    },
+    {
+      "name": "Pradip",
+      "email": "p@gmail.com",
+      "password": "4444",
+      "id": 9
+    },
+    {
+      "name": "sadfssd",
+      "email": "sdfs",
+      "password": "3432",
+      "id": 10
+    },
+    {
+      "name": "Sagar",
+      "email": "s@gmail.com",
+      "password": "5555",
+      "id": 11
+    },
+    {
+      "name": "Aniket",
+      "email": "a@gmail.com",
+      "password": "1010",
+      "id": 12
+    },
+    {
+      "name": "Aniket",
+      "email": "a@gmail.com",
+      "password": "1010",
+      "id": 13
+    },
+    {
+      "name": "Aniket",
+      "email": "an@gmail.com",
+      "password": "1010",
+      "id": 14
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+
+
+
+
+<div class="container-fluid">
+
+  <div>
+    <h3 style="border-bottom: 6px solid tomato; border-radius: 40%; display: inline;">Login Form Using JSON Server</h3>
+
+  </div>
+
+  <form [formGroup]="formgroup" (ngSubmit)="submit(formgroup.value)" class="mt-5">
+
+    <h4>Fill Your Information Below</h4>
+
+    <div class="form-group col-lg-12">
+      <label>Email</label>
+      <input type="email" formControlName="email" class="form-control" placeholder="Enter email">
+    </div>
+
+    <div class="form-group col-lg-12">
+      <label>Password</label>
+      <input type="password" formControlName="password" class="form-control" placeholder="Enter number">
+    </div>
+
+    <div class="form-group col-lg-12">
+      <button type="submit" class="btn btn-outline-primary mt-3">Submit</button>
+      <button class="btn ms-5 text-primary mt-3" (click)="movebackto()">not registered yet !!</button>
+    </div>
+
+  </form>
+
+</div>
